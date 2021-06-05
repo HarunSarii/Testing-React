@@ -36,7 +36,7 @@ function App() {
             news.map((item) => {
               return (
                 <li key={item?.objectID}>
-                  <a href={item.url} target="_blank" rel="noreferrer" >
+                  <a href={item.url} target="_blank" rel="noreferrer">
                     {item?.title}
                   </a>
                 </li>
